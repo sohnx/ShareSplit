@@ -211,7 +211,7 @@ pre.license {
       <p>ShareSplit's code is provided under the MIT license. You can download the license below or view it inline.</p>
 
       <div class="d-flex gap-2 mt-3 mb-2 flex-wrap">
-        <a href="LICENSE.txt" class="btn btn-primary"><i class="bi bi-download"></i> Download License</a>
+        <a href="LICENSE" class="btn btn-primary"><i class="bi bi-download"></i> Download License</a>
         <button id="viewLicenseBtn" class="btn btn-outline-secondary">View License</button>
       </div>
 
@@ -230,7 +230,7 @@ document.getElementById('viewLicenseBtn').addEventListener('click', function(){
   const c = document.getElementById('licenseContainer');
   const p = document.getElementById('licenseText');
   if (c.style.display === 'none') {
-    fetch('LICENSE.txt')
+    fetch('LICENSE')
       .then(r => r.text())
       .then(txt => { p.textContent = txt; c.style.display = 'block'; })
       .catch(()=> { p.textContent = 'Failed to load license.'; c.style.display = 'block'; });
