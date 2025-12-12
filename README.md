@@ -66,7 +66,7 @@ Key features include:
 > Note: This project currently uses mixed PHP, HTML, CSS, and JS inside PHP files.  
 > This structure represents the **logical organization**, not the physical folders.
 ```
-Trip-Planner/
+ShareSplit/
 │── index.php               # Home page
 │── login.php               # User login
 │── signup.php              # User signup
@@ -97,7 +97,7 @@ Trip-Planner/
    ```
    git clone https://github.com/sohnx/Trip-Planner.git
    ```
-2. Move the project into your XAMPP htdocs folder(xampp\htdocs\Trip-Planner)
+2. Move the project into your XAMPP htdocs folder(xampp\htdocs\ShareSplit)
 3. Start Apache & MySQL from XAMPP Control Panel.
      - Import the database
      - Open phpMyAdmin
