@@ -135,3 +135,9 @@ Short, clear, functional.
 - Error handling needs improvement
 
 ---
+
+## 📸Screenshots
+<p align="left"> <img src="screenshots/group.png" width="600"/> </p>
+<p align="right"> <img src="screenshots/homepage.png" width="600"/> </p>
+
+---
