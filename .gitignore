@@ -2,3 +2,4 @@
 tripplanner.sql
 ".env" 
 "backup_*.sql" 
+db_connect.php
